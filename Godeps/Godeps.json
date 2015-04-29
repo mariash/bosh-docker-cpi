@@ -1,0 +1,147 @@
+{
+	"ImportPath": "github.com/mariash/bosh-docker-cpi",
+	"GoVersion": "go1.3.3",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/gogoprotobuf/proto",
+			"Rev": "dc9b8350fb4568b6562900df872672f378242552"
+		},
+		{
+			"ImportPath": "code.google.com/p/goprotobuf/proto",
+			"Comment": "go.r60-163",
+			"Rev": "9352842ae63ee1d7e74e074ce7bb10370c4b6b9e"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.7.3-2-g26709e2",
+			"Rev": "26709e2714106fb8ad40b773b711ebce25b78914"
+		},
+		{
+			"ImportPath": "github.com/bmizerany/pat",
+			"Rev": "b8a35001b773c267eb260a691f4e5499a3531600"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/garden/client",
+			"Comment": "go-wshd-585-ge505dfe",
+			"Rev": "e505dfe1e7f4d1a55e9230b81358f2c76726d688"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/garden/protocol",
+			"Comment": "go-wshd-585-ge505dfe",
+			"Rev": "e505dfe1e7f4d1a55e9230b81358f2c76726d688"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/garden/routes",
+			"Comment": "go-wshd-585-ge505dfe",
+			"Rev": "e505dfe1e7f4d1a55e9230b81358f2c76726d688"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/garden/transport",
+			"Comment": "go-wshd-585-ge505dfe",
+			"Rev": "e505dfe1e7f4d1a55e9230b81358f2c76726d688"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/garden/warden",
+			"Comment": "go-wshd-585-ge505dfe",
+			"Rev": "e505dfe1e7f4d1a55e9230b81358f2c76726d688"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/bosh-agent/errors",
+			"Rev": "530236a3399d65f56ab9c123e72720ea84e1d41b"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/bosh-agent/logger",
+			"Rev": "530236a3399d65f56ab9c123e72720ea84e1d41b"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/bosh-agent/platform/commands",
+			"Rev": "530236a3399d65f56ab9c123e72720ea84e1d41b"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/bosh-agent/system",
+			"Rev": "530236a3399d65f56ab9c123e72720ea84e1d41b"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/bosh-agent/uuid",
+			"Rev": "530236a3399d65f56ab9c123e72720ea84e1d41b"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/gofileutils/glob",
+			"Rev": "a4a0cae5ff8a342ba01fce700b9e41c6942c0e5e"
+		},
+		{
+			"ImportPath": "github.com/cppforlife/bosh-warden-cpi/action",
+			"Rev": "83d9ed5f892651b7a4036bf372ce7c91f1240c84"
+		},
+		{
+			"ImportPath": "github.com/cppforlife/bosh-warden-cpi/api",
+			"Rev": "83d9ed5f892651b7a4036bf372ce7c91f1240c84"
+		},
+		{
+			"ImportPath": "github.com/cppforlife/bosh-warden-cpi/disk",
+			"Rev": "83d9ed5f892651b7a4036bf372ce7c91f1240c84"
+		},
+		{
+			"ImportPath": "github.com/cppforlife/bosh-warden-cpi/stemcell",
+			"Rev": "83d9ed5f892651b7a4036bf372ce7c91f1240c84"
+		},
+		{
+			"ImportPath": "github.com/cppforlife/bosh-warden-cpi/util",
+			"Rev": "83d9ed5f892651b7a4036bf372ce7c91f1240c84"
+		},
+		{
+			"ImportPath": "github.com/cppforlife/bosh-warden-cpi/vm",
+			"Rev": "83d9ed5f892651b7a4036bf372ce7c91f1240c84"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/archive",
+			"Comment": "v1.4.1-3006-g92f4bd5",
+			"Rev": "92f4bd59ce941233b295ec2b2e5faa974105ad40"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/fileutils",
+			"Comment": "v1.4.1-3006-g92f4bd5",
+			"Rev": "92f4bd59ce941233b295ec2b2e5faa974105ad40"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/ioutils",
+			"Comment": "v1.4.1-3006-g92f4bd5",
+			"Rev": "92f4bd59ce941233b295ec2b2e5faa974105ad40"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/pools",
+			"Comment": "v1.4.1-3006-g92f4bd5",
+			"Rev": "92f4bd59ce941233b295ec2b2e5faa974105ad40"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/promise",
+			"Comment": "v1.4.1-3006-g92f4bd5",
+			"Rev": "92f4bd59ce941233b295ec2b2e5faa974105ad40"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/system",
+			"Comment": "v1.4.1-3006-g92f4bd5",
+			"Rev": "92f4bd59ce941233b295ec2b2e5faa974105ad40"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar",
+			"Comment": "v1.4.1-3006-g92f4bd5",
+			"Rev": "92f4bd59ce941233b295ec2b2e5faa974105ad40"
+		},
+		{
+			"ImportPath": "github.com/fsouza/go-dockerclient",
+			"Rev": "0dfe1f16045e9e460430ee10ec1dea8d86c9bd9f"
+		},
+		{
+			"ImportPath": "github.com/nu7hatch/gouuid",
+			"Rev": "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
+		},
+		{
+			"ImportPath": "github.com/tedsuo/rata",
+			"Rev": "b15ebd8bd97ae9202eb00c076d59b2f2824bce37"
+		}
+	]
+}
