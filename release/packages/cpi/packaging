@@ -1,3 +1,0 @@
-set -e
-
-mv docker-cpi $BOSH_INSTALL_TARGET

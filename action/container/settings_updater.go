@@ -7,7 +7,7 @@ import (
 	bwcvm "github.com/cppforlife/bosh-warden-cpi/vm"
 	"github.com/fsouza/go-dockerclient"
 
-	cfg "../../config"
+	cfg "github.com/mariash/bosh-docker-cpi/config"
 )
 
 const settingsFilePathInContainer = "/var/vcap/bosh/registry.json"

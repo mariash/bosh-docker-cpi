@@ -1,7 +1,7 @@
 package action
 
 import (
-	"./container"
+	"github.com/mariash/bosh-docker-cpi/action/container"
 )
 
 type hasVM struct {

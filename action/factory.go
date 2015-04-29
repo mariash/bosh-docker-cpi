@@ -8,8 +8,8 @@ import (
 	boshsys "github.com/cloudfoundry/bosh-agent/system"
 	bwcaction "github.com/cppforlife/bosh-warden-cpi/action"
 
-	cfg "../config"
-	"./container"
+	"github.com/mariash/bosh-docker-cpi/action/container"
+	cfg "github.com/mariash/bosh-docker-cpi/config"
 )
 
 type factory struct {

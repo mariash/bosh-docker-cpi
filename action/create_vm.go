@@ -6,7 +6,7 @@ import (
 	bwcaction "github.com/cppforlife/bosh-warden-cpi/action"
 	bwcvm "github.com/cppforlife/bosh-warden-cpi/vm"
 
-	"./container"
+	"github.com/mariash/bosh-docker-cpi/action/container"
 )
 
 type createVM struct {

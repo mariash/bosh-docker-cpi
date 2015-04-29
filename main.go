@@ -6,8 +6,8 @@ import (
 
 	"github.com/fsouza/go-dockerclient"
 
-	"./action"
-	cfg "./config"
+	"github.com/mariash/bosh-docker-cpi/action"
+	cfg "github.com/mariash/bosh-docker-cpi/config"
 
 	boshlog "github.com/cloudfoundry/bosh-agent/logger"
 	boshsys "github.com/cloudfoundry/bosh-agent/system"

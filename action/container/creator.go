@@ -7,7 +7,7 @@ import (
 
 	boshlog "github.com/cloudfoundry/bosh-agent/logger"
 
-	cfg "../../config"
+	cfg "github.com/mariash/bosh-docker-cpi/config"
 )
 
 type Creator struct {
