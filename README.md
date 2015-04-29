@@ -1,10 +1,4 @@
-# docker cpi
-
-## Deploying with bosh-init
-
-See manifests folder for example manifests for dummy and bosh release.
-
-This cpi works with warden stemcells.
+# BOSH docker cpi
 
 ### Deploy
 
